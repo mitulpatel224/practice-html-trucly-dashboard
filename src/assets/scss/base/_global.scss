@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  position: relative;
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+}
+.d-flex {
+  display: flex;
+}
+.d-flex.flex-col {
+  flex-direction: column;
+}
+.d-flex.flex-grow-1 {
+  flex-grow: 1;
+}
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: bold;
+  &:visited {
+    color: var(--text-primary);
+  }
+  &:hover{
+    color: var(--text-accent);
+  }
+}

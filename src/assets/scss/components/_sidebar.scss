@@ -1,0 +1,15 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding: 20px;
+
+  .menu-option {
+    list-style: none;
+    a {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+}

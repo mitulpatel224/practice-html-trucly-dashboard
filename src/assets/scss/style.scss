@@ -1,0 +1,8 @@
+@use "./base/variables";
+@use "./base/global";
+@use "./base/fonts";
+@use"../fonts/style.scss";
+
+// Components
+@use "./components/header";
+@use "./components//sidebar";
